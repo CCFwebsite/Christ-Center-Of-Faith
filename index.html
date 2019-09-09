@@ -1,0 +1,505 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Theme Made By www.w3schools.com - No Copyright -->
+  <title>Christ Center Of Faith</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  <style>
+  body {
+    font: 400 15px/1.8 Lato, sans-serif;
+    color: #777;
+  }
+  h3, h4 {
+    margin: 10px 0 30px 0;
+    letter-spacing: 10px;      
+    font-size: 20px;
+    color: #111;
+  }
+  .container {
+    padding: 80px 120px;
+  }
+  .person {
+    border: 10px solid transparent;
+    margin-bottom: 25px;
+    width: 80%;
+    height: 80%;
+    opacity: 0.7;
+  }
+  .person:hover {
+    border-color: #f1f1f1;
+  }
+  .carousel-inner img {
+    /* make all photos black and white */ 
+    width: 100%; /* Set width to 100% */
+    margin: auto;
+  }
+  .carousel-caption h3 {
+    color: #fff !important;
+  }
+  @media (max-width: 600px) {
+    .carousel-caption {
+      display: none; /* Hide the carousel text when the screen is less than 600 pixels wide */
+    }
+  }
+  .bg-1 {
+    background: #2d2d30;
+    color: #bdbdbd;
+    background-image: url(https://scontent.fcgy1-1.fna.fbcdn.net/v/t1.0-9/47360224_2275199389368643_8674433276070330368_n.jpg?_nc_cat=106&_nc_eui2=AeFLNX9VW69nmrCR0jCLExb4HT95KlUfcYanwfI6O4wsgrlLF9pevmTegYHgF6GNpvEJjke9MGn0qrKiRLw1l0kJ9SzZDXsXZ6JOkEjidrp8xQ&_nc_oc=AQmSHM2NEA-7qIuuHqFRdm-PjbcgabzNGNlzrPmRXWxGfF8jnAc-e_RX-ZKUpuer0xY&_nc_ht=scontent.fcgy1-1.fna&oh=26efc11157e01272c99596da68db3b59&oe=5E1571D0);
+    background-size: cover;
+  }
+  .bg-1 h3 {color: red;}
+  .bg-1 p {font-style: italic;}
+  
+
+  .btn {
+    padding: 10px 20px;
+    background-color: #333;
+    color: #f1f1f1;
+    border-radius: 0;
+    transition: .2s;
+  }
+  .btn:hover, .btn:focus {
+    border: 1px solid #333;
+    background-color: #fff;
+    color: #000;
+  }
+ 
+  .nav-tabs li a {
+    color: #777;
+  }
+  
+  .navbar {
+    font-family: Montserrat, sans-serif;
+    margin-bottom: 0;
+    background-color: #2d2d30;
+    border: 0;
+    font-size: 11px !important;
+    letter-spacing: 4px;
+    opacity: 0.9;
+  }
+  .navbar li a, .navbar .navbar-brand { 
+    color: #d5d5d5 !important;
+  }
+  .navbar-nav li a:hover {
+    color: blue !important;
+  }
+  .navbar-nav li.active a {
+    color: #fff !important;
+    background-color: #29292c !important;
+  }
+  .navbar-default .navbar-toggle {
+    border-color: transparent;
+  }
+  .open .dropdown-toggle {
+    color: #fff;
+    background-color: #555 !important;
+  }
+  .dropdown-menu li a {
+    color: #000 !important;
+  }
+  .dropdown-menu li a:hover {
+    background-color: red !important;
+  }
+
+  .form-control {
+    border-radius: 0;
+  }
+  textarea {
+    resize: none;
+  }
+  </style>
+</head>
+<body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="50">
+<nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container-fluid">
+    <div class="navbar-header">
+<a class="navbar-brand" href="#">Christ Center Of Faith</a>
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#myPage">HOME</a></li>
+        <li><a href="#band">TEAM</a></li>
+        <li><a href="#tour">TOUR</a></li>
+        <li class="dropdown">
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+    </ol>
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner" role="listbox">
+      <div class="item active">
+        <img src="https://scontent.fcgy1-1.fna.fbcdn.net/v/t1.0-9/59285623_10219147268333717_2645477061497454592_n.jpg?_nc_cat=106&_nc_oc=AQnyjTP0LoTym8LaQHwGQe0hRbbR611ZXeGw8Hh9tY1fGV6WlfX0UPu_ZpvkO8J6Npo&_nc_ht=scontent.fcgy1-1.fna&oh=c2cb7124efb3e1b847062fdb36952351&oe=5E0E8732" alt="New York" width="1200" height="700">
+        <div class="carousel-caption">
+          <h3>New City Hall Of Tagum</h3>
+        </div>      
+      </div>
+
+      <div class="item">
+        <img src="https://scontent.fcgy1-1.fna.fbcdn.net/v/t1.0-9/53828737_2338865993001982_5398582842336739328_n.jpg?_nc_cat=111&_nc_oc=AQnHqQGvPuq0nVNe4x7IKAGjHxjGLRon2sukMDKHzWZmVZOtkq1W73jegT78iHFL9QI&_nc_ht=scontent.fcgy1-1.fna&oh=cfb64ebef87d9be0b9ae44386d84561c&oe=5E0668BE" alt="Chicago" width="1200" height="700">
+        <div class="carousel-caption">
+          <h3>Maco Langgam</h3>
+          <p>Thank you, Langgam - A day we won't forget.</p>
+        </div>      
+      </div>
+    
+      <div class="item">
+        <img src="https://scontent.fcgy1-1.fna.fbcdn.net/v/t1.0-9/59393271_2055101864789606_4998107369964568576_n.jpg?_nc_cat=102&_nc_oc=AQkZwfdA9dg400zDsiW_7W_7WTyOjgUmqgwAJ28Nnd0pBGNP1Vpy8qVJfL4QPY6_cK4&_nc_ht=scontent.fcgy1-1.fna&oh=837ce9b6035444ee8fe055865c2d961a&oe=5DCA0E7A" alt="Los Angeles" width="1200" height="700">
+        <div class="carousel-caption">
+          <h3>NCH</h3>
+          <p>Even though the traffic was a mess, we had the best time playing at New City Hall!</p>
+        </div>      
+      </div>
+    </div>
+
+    <!-- Left and right controls -->
+    <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+</div>
+
+<!-- Container (The Band Section) -->
+<div id="band" class="container text-center">
+  <h3>THE WORSHIP TEAM</h3>
+  <p><em>We love music!</em></p>
+  <p>We have created fictional website to inspire others, whatever things or desires want to achieve we must not give up and always remember that there is God who is willing to help in any trial we may face.
+
+Everything here on this site is because of our Lord, we are only used to spread His Word, Power,
+Love, and the good life He has given us. We are ready to use our lives in Him because His plan is better than our own.
+
+One of His plans was to save His children and you were part of His plan.
+
+Pray for us because if we help, we can do the Impossible things because Prayer is the key to our success.
+GOD BLESS!</p>
+  <br>
+
+  <div class="row">
+
+    <div class="col-md-4">
+      <p class="text-center"><strong>Rhoi Dela Peña Obedencio</strong></p><br>
+      <a href="#demo1" data-toggle="collapse">
+        <img src="https://scontent.fcgy1-1.fna.fbcdn.net/v/t1.0-9/66996199_463208820897023_7658892665567576064_n.jpg?_nc_cat=109&_nc_eui2=AeFpSDnCtDdDVHVNZgiPSIee4djFUvasTxW9HTgnmqYCU_CTuvPRxxUfPOOit7vu4nS_RrCiO7jBkJ5zOnH_3PU6KtZxr-z8pYDvJDJMp5GP7A&_nc_oc=AQlD8NrwHUFRXGzMm9JM8RPQNLNfctyLd09gEBke4K70_FoeNEQow_ppLFK4m7KOTCI&_nc_ht=scontent.fcgy1-1.fna&oh=022ff51199bee4ffcd51affc40f7eb8d&oe=5DF97790" class="img-circle person" alt="Random Name" width="255" height="255">
+      </a>
+      <div id="demo1" class="collapse">
+        <p>Worship Leader</p>
+        <p>Love to play volleyball</p>
+        <p>Member since 2014</p>
+      </div>
+    </div>
+
+     <div class="col-md-4">
+      <p class="text-center"><strong>Keith Bryan Codilla</strong></p><br>
+      <a href="#demo2" data-toggle="collapse">
+        <img src="https://scontent.fcgy1-1.fna.fbcdn.net/v/t1.0-1/c0.0.160.160a/p160x160/69440474_351093312512941_2598313299770605568_n.jpg?_nc_cat=104&_nc_eui2=AeFp4IxXfkaP0zBuEz2m9aCe036E8GgUsbmhW865MZEe7jfMfw7Sf4cQM7PhBz8RuDTGtm0XEWbs3oofWMnnD6PPAbYLu-WkWVhJrCrWC3yT6w&_nc_oc=AQmLwMq81DR1Ur-p9G6Nx5enFV4Dr81h_unQhLQeQmo0qnT8hQQ7B9cz4cOy7kGaeT8&_nc_ht=scontent.fcgy1-1.fna&oh=a9329e8a732585cd94eb4a5fdc4ea98b&oe=5E03DF68" class="img-circle person" alt="Random Name" width="255" height="255">
+      </a>
+      <div id="demo2" class="collapse">
+        <p>Guitarist</p>
+        <p>"Health, wealth, position, performance, ability and attitude are the results of Our decisions"</p>
+        <p>Member since 2013</p>
+      </div>
+    </div>
+
+    <div class="col-md-4">
+      <p class="text-center"><strong>Jireh Paul Alcando</strong></p><br>
+      <a href="#demo3" data-toggle="collapse">
+        <img src="https://scontent.fcgy1-1.fna.fbcdn.net/v/t1.0-1/c0.5.160.160a/p160x160/44062981_309891632938029_3264292367502409728_n.jpg?_nc_cat=102&_nc_eui2=AeEo7lBI1vPvoJbeqW2jsHyQsUf4M8AzMOLKMuFMzRH4-E01eiiAGTQJfvrmd2C5fFWaV8hEbX4Ols-bdTdPlppUztHddeYOV4vLvYt0hqZykQ&_nc_oc=AQkrD77h8WIanvDfwjRvUWnNXKyLWegsqsZITPVQhstw9JfrNlPqSyzhPh3_572kDA8&_nc_ht=scontent.fcgy1-1.fna&oh=c6f466ff4cff247c8ca0f3f8261da538&oe=5DFAAB68" class="img-circle person" alt="Random Name" width="255" height="255">
+      </a>
+      <div id="demo3" class="collapse">
+        <p>Drummer</p>
+        <p>Loves drummin'</p>
+        <p>Member since 2013</p>
+      </div>
+    </div>
+
+  </div>
+
+ <div class="row">
+    <div class="col-md-4">
+      <p class="text-center"><strong>John Christopher Codilla</strong></p><br>
+      <a href="#demo4" data-toggle="collapse">
+        <img src="https://scontent.fcgy1-1.fna.fbcdn.net/v/t1.0-1/c0.0.160.160a/p160x160/67281831_2435735879820899_1345633753715703808_n.jpg?_nc_cat=111&_nc_eui2=AeHE74xhn3-OrQVGVq-hyDot1-PQoSCavXVDKfE3cUTKbsgxAPEgVcWjMQOqy7_0W4IqUYY0Kw2T6zjY525YWDmkfYkAnn60J7N1zD6QwziBHg&_nc_oc=AQlP8pwZisar-GzixFBi2ExU8j8EFCXO829PxxiL-7UWNsYwZejfztGxf-QJmXWFwis&_nc_ht=scontent.fcgy1-1.fna&oh=d870d1d6e5b1576e8c4295f260f1f442&oe=5E159740" class="img-circle person" alt="Random Name" width="255" height="255">
+      </a>
+      <div id="demo4" class="collapse">
+        <p>Bass player</p>
+        <p>Loves math</p>
+        <p>Member since 2013</p>
+      </div>
+    </div>
+
+    <div class="col-md-4">
+      <p class="text-center"><strong>Michael Rasonable</strong></p><br>
+      <a href="#demo5" data-toggle="collapse">
+        <img src="https://scontent.fcgy1-1.fna.fbcdn.net/v/t1.0-9/68907431_496670937797738_6114979268435902464_n.jpg?_nc_cat=110&_nc_eui2=AeEaiU870LMxxisSSV-7TKVl8GswTAka6LdGiRu-hCvA9hf-oBApJIyX-jwn3FYCIqr_SBG6Q4IfSo_i2Us_O-cmhsdMDyBCtNY8tsJ09Mud6A&_nc_oc=AQnWHq1bEGTOJ0vkAmoElIjLOldVPbpY8E7Pid4AuarAoACCAir2vpikCEA-lVT3Kls&_nc_ht=scontent.fcgy1-1.fna&oh=d3e7496a91c35105922689b1a191fc12&oe=5DCC4380" class="img-circle person" alt="Random Name" width="255" height="255">
+      </a>
+      <div id="demo5" class="collapse">
+        <p>Keyboard Player</p>
+        <p>Playing Mobile Legends</p>
+        <p>Member since 2014</p>
+      </div>
+    </div>
+
+    <div class="col-md-4">
+      <p class="text-center"><strong>Kurt Brylle Balangyao Ferrer</strong></p><br>
+      <a href="#demo6" data-toggle="collapse">
+        <img src="https://scontent.fcgy1-1.fna.fbcdn.net/v/t1.0-1/p160x160/65786269_886141915053488_1227132328959016960_n.jpg?_nc_cat=105&_nc_eui2=AeHjVLtmXTzX3J07ZVffGlPeQ680G5PlRYpZLyDLADk55L56VVRi6iuulg7MU_uCCzy9jtB8cOUfTFsnbq2Muii2bkN_uhvGNSvc6-ZyGxr46w&_nc_oc=AQnRQR5vncmsaq0EwTZVhcGM5zkNw_wPhKKgp4B2GkjlAf2YTCbBAoJSYdECJfNM35g&_nc_ht=scontent.fcgy1-1.fna&oh=5e3a4e98efea041a5d45eed737761313&oe=5DC945F2" class="img-circle person" alt="Random Name" width="255" height="255">
+      </a>
+      <div id="demo6" class="collapse">
+        <p>Keyboard Player</p>
+        <p>Playing Mobile Legends</p>
+        <p>Member since 2013</p>
+      </div>
+    </div>
+
+  </div>
+  <div class="row">
+
+<div class="col-md-4">
+      <p class="text-center"><strong>Ayessa Vann</strong></p><br>
+      <a href="#demo7" data-toggle="collapse">
+        <img src="https://scontent.fcgy1-1.fna.fbcdn.net/v/t1.0-1/c0.0.160.160a/p160x160/69335937_139516523964454_8605053190414532608_n.jpg?_nc_cat=102&_nc_eui2=AeELJe7BY6fc33rzU8iSYuFQPSp2QZ6z--4_dBBFZMNR883i7ZmLU0fDDhKVvMY2IlH2ovQJZo13m7QD5Oi233qN6Xhe26wb1PUIZ1H4ziQ05g&_nc_oc=AQm56L3mCcLCfS9TdecaZRbF3Y1uKuj_Xol4gefTsDA1N3F5RknJA_T6p1JZbZAiv10&_nc_ht=scontent.fcgy1-1.fna&oh=2dc7589611620a9afaa94060974a9fb9&oe=5E162CC0" class="img-circle person" alt="Random Name" width="255" height="255">
+      </a>
+      <div id="demo7" class="collapse">
+        <p>Worship Leader</p>
+        <p>Member since 2019</p>
+      </div>
+    </div>
+
+<div class="col-md-4">
+      <p class="text-center"><strong>Michaela Carcasona</strong></p><br>
+      <a href="#demo8" data-toggle="collapse">
+        <img src="https://scontent.fcgy1-1.fna.fbcdn.net/v/t1.0-1/c0.0.160.160a/p160x160/68741335_1245022852351019_7489069482590076928_n.jpg?_nc_cat=101&_nc_eui2=AeGuC2WS_pIACsrDFctmQgapJ6GvYqWXvIHAqaeGB3IhwvIkOFFtMmccIpkjrJ95Jra3CbbHQ4yrPa3p7TvNgkFe0IElSpOqrHCelUih_Xku6g&_nc_oc=AQms86jUXI3pud5TiJeKcY7OLUrLQE3IqDmSDMlWsj6zI-NT-7ZiWNhbCrOzVz04ZCk&_nc_ht=scontent.fcgy1-1.fna&oh=3c7f25af08aa7ee32bc8999ca9f133e0&oe=5DC9DEDE" class="img-circle person" alt="Random Name" width="255" height="255">
+      </a>
+      <div id="demo8" class="collapse">
+        <p>Worship Leader</p>
+        <p>Member since 2017</p>
+      </div>
+    </div>
+
+
+<div class="col-md-4">
+      <p class="text-center"><strong>Jelay Junio</strong></p><br>
+      <a href="#demo9" data-toggle="collapse">
+        <img src="https://scontent.fcgy1-1.fna.fbcdn.net/v/t1.0-1/p160x160/67609301_150337392708795_393547870512349184_n.jpg?_nc_cat=106&_nc_eui2=AeHFVekHsC-OWtpf6_psHSnsHoZZ14C1wiOYQ4NW6CvzAEftmygzVBA5HF2lA6FgtPQaOgebwBB1c4P6ynqgGoKDrRZHkbjpGP9Dogm6106OFQ&_nc_oc=AQmkfRF1ywGEXocn_ys8P3WtqWPVlsXj8ua3GrT7vORrvvzDcJcOWf6UfbGXBjOSvXY&_nc_ht=scontent.fcgy1-1.fna&oh=7703d37f16fd0694680105ec10edc9b0&oe=5DCD6F1F" class="img-circle person" alt="Random Name" width="255" height="255">
+      </a>
+      <div id="demo9" class="collapse">
+        <p>Worship Leader</p>
+        <p>Member since 2019</p>
+      </div>
+    </div>
+</div>
+ <div class="row">
+
+<div class="col-md-4">
+      <p class="text-center"><strong>Benex Pearl A.Ababa</strong></p><br>
+      <a href="#demo10" data-toggle="collapse">
+        <img src="https://scontent.fcgy1-1.fna.fbcdn.net/v/t1.0-1/c1.0.160.160a/p160x160/51156328_10157299383503706_6740674721207025664_n.jpg?_nc_cat=105&_nc_eui2=AeF8Byv3-Ih2KxsoMdbuOYJU5KzIRXEqsYt7HsQLI_2FR5fdnYKvr86VsyAgthr5FifMAN1aXGczMKin-k-N1L0VaHJdX6sh2q6G2r8Frz554Q&_nc_oc=AQlAgTghEW4znGUPFIp5As3IQt59sxWpOPO5NL_6IUoVwqFV0TNNV2Os6Sm7FFhjUEk&_nc_ht=scontent.fcgy1-1.fna&oh=d83b00b01c82d603db2879438a293668&oe=5DF7D30D" class="img-circle person" alt="Random Name" width="255" height="255">
+      </a>
+      <div id="demo10" class="collapse">
+        <p>Worship Leader</p>
+        <p>Member since 2014</p>
+      </div>
+    </div>
+
+<div class="col-md-4">
+      <p class="text-center"><strong>Loreta Dela Victoria Asubar</strong></p><br>
+      <a href="#demo11" data-toggle="collapse">
+        <img src="https://scontent.fcgy1-1.fna.fbcdn.net/v/t1.0-1/c0.0.160.160a/p160x160/59538328_3208951582464472_1036630849841266688_n.jpg?_nc_cat=109&_nc_eui2=AeF8KhIv1XypsQSNHNjuF83IYUaYa4tSuYnPOp5K6yKicu-DyzQNPqdC7y1gFERByzTP2vcPlFkeSLv3y6uXR1-OU6vE8asrxiL5zB_y45b35A&_nc_oc=AQlJXTRtx6Fzv7Kf-nNZbg3O8Kv4Cjr5BaOQ67lnkVMaWAd3Lmi51N_Ilmucg453DjU&_nc_ht=scontent.fcgy1-1.fna&oh=73a8ab65488a0ea566ec10a63e5a2996&oe=5E0D77FC" class="img-circle person" alt="Random Name" width="255" height="255">
+      </a>
+      <div id="demo11" class="collapse">
+        <p>Worship Leader</p>
+        <p>Member since 2013</p>
+      </div>
+    </div>
+
+
+<div class="col-md-4">
+      <p class="text-center"><strong>Glenn Mar Jayme</strong></p><br>
+      <a href="#demo13" data-toggle="collapse">
+        <img src="https://scontent.fcgy1-1.fna.fbcdn.net/v/t1.0-1/c27.0.160.160a/p160x160/69299179_2127747410858384_1428132804092231680_n.jpg?_nc_cat=102&_nc_eui2=AeHneOD2FoQvbJy_0awWonzxF3PB--awn08yWEcGO7egZ0C2XHyW8NxB1aQXgqNZ4-8pEQycCFk4Drj-DIktpBzMxFDbxuhRkzKG0ZSZYxbRow&_nc_oc=AQlGfivbXFE5XptC1fGlueaHpDIvvDmZJFCpT3Kfs0vSNJKUISN2rQ-45i_GhjN6W6w&_nc_ht=scontent.fcgy1-1.fna&oh=61c279573ba6b611fc1635ff3225d5da&oe=5E0051E5" class="img-circle person" alt="Random Name" width="255" height="255">
+      </a>
+      <div id="demo13" class="collapse">
+        <p>Mixer Operator</p>
+        <p>Playing Mobile Legends</p>
+        <p>Member since 2015</p>
+      </div>
+    </div>
+</div>
+ <div class="row">
+
+<div class="col-md-4">
+      <p class="text-center"><strong>Kevin Garcia</strong></p><br>
+      <a href="#demo14" data-toggle="collapse">
+        <img src="https://scontent.fcgy1-1.fna.fbcdn.net/v/t1.0-1/c0.0.160.160a/p160x160/69405001_166431957831832_2875827603669778432_n.jpg?_nc_cat=101&_nc_eui2=AeEvjzoPQ98jQjl9KCuajLc3Q2gsIWWSVJZro6Fn1q_ySVTgn5_kKbT7r7Xxkwqc_XaTuCpE8DhTwWh9osfRrGDaNQ--fxBn_yLrXaZTn4wNJg&_nc_oc=AQnlONCrYOaHkmAXSvmlXGawQj0TRbs_2Lwcf6NeiDMlHMrH8etiytYtU6pETVtzfiQ&_nc_ht=scontent.fcgy1-1.fna&oh=bd3ff3da5628380c475462662362160a&oe=5E055BA6" class="img-circle person" alt="Random Name" width="255" height="255">
+      </a>
+      <div id="demo14" class="collapse">
+        <p>Worship Leader</p>
+        <p>Member since 2015</p>
+      </div>
+    </div>
+
+<div class="col-md-4">
+      <p class="text-center"><strong>Johnmark Masas</strong></p><br>
+      <a href="#demo15" data-toggle="collapse">
+        <img src="https://scontent.fcgy1-1.fna.fbcdn.net/v/t1.0-1/c0.0.160.160a/p160x160/69542644_1063698097354464_2435183063114711040_n.jpg?_nc_cat=110&_nc_eui2=AeEVRFQvZrR4tkuhWQcxWvx14JOWnlyM9ZrJJ8ZZd5jygxbPUoBugBvXDN16nX6rLnYksrNik01fHk4fXvoGK5X3ouZU6YeXBVrTg4tPeQlRXQ&_nc_oc=AQnoXJPxfZSoFxthMZwme4XcUmkJLY5KJo_Qcb5vMObtnzKrGV17baasWuHkuRRFlhE&_nc_ht=scontent.fcgy1-1.fna&oh=cf5258b32550ac78b5dd26fc4a74f22f&oe=5E0AB20B" class="img-circle person" alt="Random Name" width="255" height="255">
+      </a>
+      <div id="demo15" class="collapse">
+        <p>Worship Leader</p>
+        <p>Member since 2013</p>
+      </div>
+    </div>
+
+
+<div class="col-md-4">
+      <p class="text-center"><strong>Nathaniel Dumadag Taojo</strong></p><br>
+      <a href="#demo16" data-toggle="collapse">
+        <img src="https://scontent.fcgy1-1.fna.fbcdn.net/v/t1.0-1/p160x160/61301306_430985727449371_9043924940268503040_n.jpg?_nc_cat=104&_nc_eui2=AeHFDcv0kNvVoGYwlIGXL3I-0hsN_mtxQW-xLd7eb4rNM4T3qduROGQ3JjTzRClDNXT4BeiWkRqiZ41n5OwCOqnEv4242MkPwB3XadalOCB_1A&_nc_oc=AQkz6pFMwmEi4euGLWu2qQ5KbGsElIWQUwq4fOpAql_PkMfG4K7B0hETbVH6Qk3quWY&_nc_ht=scontent.fcgy1-1.fna&oh=43249829d0a13a644e727e3727ecaede&oe=5E0B6978" class="img-circle person" alt="Random Name" width="255" height="255">
+      </a>
+      <div id="demo16" class="collapse">
+        <p>Guitarist</p>
+        <p>Playing Mobile Legends</p>
+        <p>Member since 2013</p>
+      </div>
+    </div>
+</div>
+ <div class="row">
+
+<div class="col-md-4">
+      <p class="text-center"><strong>Raul Bengil</strong></p><br>
+      <a href="#demo17" data-toggle="collapse">
+        <img src="https://scontent.fcgy1-1.fna.fbcdn.net/v/t1.0-1/p160x160/15747635_115376825629027_5413096436741463701_n.jpg?_nc_cat=106&_nc_eui2=AeFORUgpa8HhCyu_G9Jg48-_KgHZFBdnA1tt-VPv-FyldemH21IowQgz8bElg81rMkn2426wzaN7J2bU7BxbtECzpq_fDPEZrhx_PJkt0MKg2A&_nc_oc=AQkCIr-4MQDy-46jRdaW17Azp8v9JiOd0s49DTh0mUs65LtUF-2x9SgPf4fAS4MspL8&_nc_ht=scontent.fcgy1-1.fna&oh=3a01dd5037cd3b015404e18d0de93cdd&oe=5DFC2C2D" class="img-circle person" alt="Random Name" width="255" height="255">
+      </a>
+      <div id="demo17" class="collapse">
+        <p>PASTOR</p>
+        <p>Member since 2013</p>
+      </div>
+    </div>
+
+<div class="col-md-4">
+      <p class="text-center"><strong>Jerryme Asubar</strong></p><br>
+      <a href="#demo18" data-toggle="collapse">
+        <img src="https://scontent.fcgy1-1.fna.fbcdn.net/v/t1.0-1/p160x160/53735648_107255603775565_7034471138751152128_n.jpg?_nc_cat=103&_nc_eui2=AeEAgrTQjLh51AjruOLYhlb99ceVdVaZwGMI2YdKobHGeVqxkOPX2sxbqAcv7wLIpnYNRpzPut2YvbFiP-SHzaJJo5MhRi8DjD2ufb04zgD7oQ&_nc_oc=AQmTs_vlfzhypmWvEp4SzjOddNhj5uBDrYWxGo6pPI7GGK1MuOgNeK9y4jIBzYW-q0A&_nc_ht=scontent.fcgy1-1.fna&oh=d876042ed0a77474a7242941e2e709fa&oe=5E14F7AB" class="img-circle person" alt="Random Name" width="255" height="255">
+      </a>
+      <div id="demo18" class="collapse">
+        <p>PASTOR</p>
+        <p>Member since 2013</p>
+      </div>
+    </div>
+
+
+<div class="col-md-4">
+      <p class="text-center"><strong>Joel Gallardo</strong></p><br>
+      <a href="#demo19" data-toggle="collapse">
+        <img src="https://scontent.fcgy1-1.fna.fbcdn.net/v/t1.0-1/c0.27.160.160a/p160x160/36800550_121682588749348_288589955108700160_n.jpg?_nc_cat=103&_nc_eui2=AeFYLr0xFQGF6dnRuevMXWRr1XAMtBrpq3rOJDr0BgHDsnS0QVlZHzgSoGniA81_vwDnz8IJMT_3Emg1xGR-QyOykacAQYj7CD2KDErNsPQ-ZA&_nc_oc=AQnPIdUiJOLiAhtxxh6D0yS9ahcgEB8BZ9OoFNaTsEHo6aK-ng-7d4vkqB15WnoKvI4&_nc_ht=scontent.fcgy1-1.fna&oh=731d6a3bb78b2fba718fe773259ce554&oe=5DFB97D1" class="img-circle person" alt="Random Name" width="255" height="255">
+      </a>
+      <div id="demo19" class="collapse">
+        <p>Mixer Operator/Worship Leader</p>
+        <p>Member since 2013</p>
+      </div>
+    </div>
+</div>
+
+<div class="row">
+
+<div class="col-md-4">
+      <p class="text-center"><strong>Delbert Abenoja Dupeño</strong></p><br>
+      <a href="#demo20" data-toggle="collapse">
+        <img src="https://scontent.fcgy1-1.fna.fbcdn.net/v/t1.0-1/p160x160/68957526_901766023518882_398651185013194752_n.jpg?_nc_cat=109&_nc_eui2=AeH5_obUkFME3vexLZGT8R-_4J4G1PlpIiF2Wviti8HOMaMo5Hl1KX5sWAdm2ncp2B-dHYyjU2HNvzK7VuXyQdfPz_jLI-r1RIsbof9oXhlgkQ&_nc_oc=AQkCAH-b7TDYilNkg_FSMUIZk6qlNap8S-h39mn01YefI-2ht24B4NvEpdXFB-7-UMU&_nc_ht=scontent.fcgy1-1.fna&oh=f7fd2144c20c132c472ae7188fe342f7&oe=5DF55F2A" class="img-circle person" alt="Random Name" width="255" height="255">
+      </a>
+      <div id="demo20" class="collapse">
+        <p>Guitarist</p>
+        <p>Member since 2013</p>
+      </div>
+    </div>
+
+<div class="col-md-4">
+      <p class="text-center"><strong>Aldrin Paje</strong></p><br>
+      <a href="#demo21" data-toggle="collapse">
+        <img src="https://scontent.fcgy1-1.fna.fbcdn.net/v/t1.0-1/c3.0.160.160a/p160x160/47572148_115699839457168_1007945686689251328_n.jpg?_nc_cat=101&_nc_eui2=AeHhInWh1wEA6l4pyssE64HWurnYrjm5vUpWhHfX2yReaOdTxqJh70WBkJLlSCkMGc4MpiT6-9Y9WZdRT1BjP_y5lU16hiCBd21F_UfII0AGIg&_nc_oc=AQlu9XW2xk4WkOROyB9A0wNLCG6LVt4Q8UM-aKnDJMrQ4_2hNeNeUMdoyuLsMzPFIxc&_nc_ht=scontent.fcgy1-1.fna&oh=5851d0a96ee020647c9ccf5445ce3a70&oe=5E04F581" class="img-circle person" alt="Random Name" width="255" height="255">
+      </a>
+      <div id="demo21" class="collapse">
+        <p>Worship Leader</p>
+        <p>Member since 2013</p>
+      </div>
+    </div>
+</div>
+
+
+</div>
+
+    
+
+<!-- Container (TOUR Section) -->
+<div id="tour" class="bg-1">
+  <div class="container">
+    <h3 class="text-center">TOUR DATES</h3>
+    <p class="text-center" style="color: red">The WORSHIP TEAM we'll play you some music.<br></p>
+    <ul class="list-group">
+    <div class="row text-center">
+      <div class="col-md-4">
+        <div class="thumbnail">
+          <img src="https://tagumcity.files.wordpress.com/2011/11/p1210192.jpg" alt="Paris" width="400" height="300">
+          <p><strong>Tagum City Trade Center</strong></p>
+          <p>Sunday 3 November 2019</p>
+        </div>
+      </div>
+      
+ 
+<script>
+$(document).ready(function(){
+  // Initialize Tooltip
+  $('[data-toggle="tooltip"]').tooltip(); 
+  
+  // Add smooth scrolling to all links in navbar + footer link
+  $(".navbar a, footer a[href='#myPage']").on('click', function(event) {
+
+    // Make sure this.hash has a value before overriding default behavior
+    if (this.hash !== "") {
+
+      // Prevent default anchor click behavior
+      event.preventDefault();
+
+      // Store hash
+      var hash = this.hash;
+
+      // Using jQuery's animate() method to add smooth page scroll
+      // The optional number (900) specifies the number of milliseconds it takes to scroll to the specified area
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 900, function(){
+   
+        // Add hash (#) to URL when done scrolling (default click behavior)
+        window.location.hash = hash;
+      });
+    } // End if
+  });
+})
+</script>
+
+</body>
+</html>
